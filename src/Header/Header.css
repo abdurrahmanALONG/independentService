@@ -1,11 +1,14 @@
-.nav-btn {
-    display: flex;
-    padding-top: 35px;
-    padding-bottom: 10px;
-    margin-left: 450px;
-
+.header {
+    background-color: dodgerblue;
 }
 
-.btn {
-    margin: 15px;
+.headerTitel {
+    text-align: center;
+
+    padding: 30px;
+}
+
+.headerNav {
+    margin-top: 0;
+    padding-top: 0;
 }
