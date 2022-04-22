@@ -3,22 +3,21 @@
 
 
 ## Features and Functionality
-# This is an privet consultancy farm website page.
-# by using this app users can do authentication by Google.
-# by using this app  users can do authentication by Email and Password.
-# Without login or registration you user cannot enter some pages.
-# Here users can navigate from one page to another page easily.
+### This is an privet consultancy farm website page.
+### by using this app  users can do authentication by Email and Password.
+### Without login or registration you user cannot enter some pages.
+### Here users can navigate from one page to another page easily.
 
 
 ## List of technologies used in this project.
-# React app
-# React router
-# Google firebase authentication
-# React Bootstrap
-# Venila CSS
-# imgbb
-# react-firebase-hooks
-# react-toastify
+### React app
+### React router
+### Google firebase authentication
+### React Bootstrap
+### Venila CSS
+### imgbb
+### react-firebase-hooks
+### react-toastify
 
 
 
