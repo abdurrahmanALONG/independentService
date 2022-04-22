@@ -3,11 +3,12 @@ import { Container } from 'react-bootstrap';
 import Extra from '../Extra/Extra';
 import Services from '../Services/Services';
 import Banner from './Banner/Banner';
+import './Home.css'
 
 const Home = () => {
     return (
-        <div className='homeStyle'>
-            <div>
+        <div className='homeStyle '>
+            <div >
                 <Banner></Banner>
             </div>
             <Container>

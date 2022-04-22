@@ -18,3 +18,11 @@
 .extrabtn {
     text-align: center;
 }
+
+
+/* make extra part responsive */
+@media only screen and (max-width:576px) {
+    .divaided {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

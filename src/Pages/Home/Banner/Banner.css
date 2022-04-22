@@ -1,4 +1,13 @@
 .hight {
-    height: 430px;
+    height: 450px;
     margin-bottom: 20px;
+}
+
+
+
+/* make banner responsive */
+@media only screen and (max-width:576px) {
+    .banner {
+        height: auto;
+    }
 }
