@@ -10,7 +10,7 @@ const RequireAuth = ({ children }) => {
     const [user, loading] = useAuthState(auth);
     const location = useLocation();
     const [sendEmailVerification, sending, error] = useSendEmailVerification(auth);
-    if (loading) {
+    if (sending) {
         return <Loading></Loading>
     }
 

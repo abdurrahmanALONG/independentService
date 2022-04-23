@@ -14,11 +14,13 @@ const Service = ({ service }) => {
         <div className='serviceStyle'>
             <img src={img} alt="" />
             <h5>{name}</h5>
-            <h4>Fees:{price}</h4>
+            <h6>Fees:{price}</h6>
             <p>{details}</p>
-            <Button onClick={() => navigateToServiceDetail(id)} variant="primary" type="submit">
-                Booking
-            </Button>
+            <div className='servicebtn'>
+                <Button onClick={() => navigateToServiceDetail(id)} variant="primary" type="submit">
+                    Booking
+                </Button>
+            </div>
         </div>
     );
 };
