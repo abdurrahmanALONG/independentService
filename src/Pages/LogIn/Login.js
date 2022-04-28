@@ -18,12 +18,7 @@ const Login = () => {
     let errorElement;
 
 
-    const [
-        signInWithEmailAndPassword,
-        user,
-        loading,
-        error,
-    ] = useSignInWithEmailAndPassword(auth);
+    const [signInWithEmailAndPassword, user,loading,error,] = useSignInWithEmailAndPassword(auth);
 
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
@@ -42,8 +37,7 @@ const Login = () => {
         event.preventDefault();
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-
-        signInWithEmailAndPassword(email, password);
+        signInWithEmailAndPassword (email, password);
     }
 
     const navigateRegister = event => {

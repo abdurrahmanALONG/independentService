@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { toast, ToastContainer } from 'react-toastify';
 import './Extra.css'
@@ -6,8 +6,9 @@ import './Extra.css'
 
 
 const Extra = () => {
-    const handelGetInTouch = () => {
+    const handelGetInTouch = (event) => {
         toast('Sent Successfully');
+        event.target.reset();
     }
 
 
